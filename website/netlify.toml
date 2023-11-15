@@ -1,6 +1,6 @@
 [build]
-  publish = "website/public"
-  command = "pushd website; hugo --gc --minify; popd"
+  publish = "public"
+  command = "hugo --gc --minify"
 
   [build.environment]
     HUGO_VERSION = "0.120.3"
